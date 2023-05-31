@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/EveryThing.com/static/css/main.434e2973.css",
+    "main.js": "/EveryThing.com/static/js/main.8bdde751.js",
+    "static/js/787.702287cb.chunk.js": "/EveryThing.com/static/js/787.702287cb.chunk.js",
+    "static/media/CalculatorBG.jpg": "/EveryThing.com/static/media/CalculatorBG.a20a7460e965801d5e9a.jpg",
+    "static/media/rainynight.png": "/EveryThing.com/static/media/rainynight.b04a66aa149fa87c06d3.png",
+    "static/media/PhotoPedialogo.ico": "/EveryThing.com/static/media/PhotoPedialogo.81e1b92ffe55332acf46.ico",
+    "static/media/photopedia.png": "/EveryThing.com/static/media/photopedia.da586fcff88b6c8923db.png",
+    "static/media/sunnyBg.png": "/EveryThing.com/static/media/sunnyBg.9e3401e5398b3fdf4978.png",
+    "static/media/welcome.png": "/EveryThing.com/static/media/welcome.56b3d29d7d33a607ed9f.png",
+    "static/media/image.png": "/EveryThing.com/static/media/image.12ed3745e0194652112f.png",
+    "static/media/BMIBG.jpg": "/EveryThing.com/static/media/BMIBG.545639681fd2fc47b394.jpg",
+    "static/media/winternight.png": "/EveryThing.com/static/media/winternight.25a6fed9948ab2b7077b.png",
+    "static/media/weatherBG.png": "/EveryThing.com/static/media/weatherBG.5a7645b8c20fb13016f2.png",
+    "static/media/PasswordGeneratorBG.png": "/EveryThing.com/static/media/PasswordGeneratorBG.755083f4623dc1a3ebcb.png",
+    "index.html": "/EveryThing.com/index.html",
+    "main.434e2973.css.map": "/EveryThing.com/static/css/main.434e2973.css.map",
+    "main.8bdde751.js.map": "/EveryThing.com/static/js/main.8bdde751.js.map",
+    "787.702287cb.chunk.js.map": "/EveryThing.com/static/js/787.702287cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.434e2973.css",
+    "static/js/main.8bdde751.js"
+  ]
+}
