@@ -1,0 +1,127 @@
+.container{
+    border: none;
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.container h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.search-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    background: transparent;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .search-input {
+    width: 50vw;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  .search-button {
+    background-color: #2196f3;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 5px;
+  }
+  
+  .search-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  .fa-search {
+    font-size: 18px;
+  }
+  .infoCards{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  #basicInfo{
+    height: 60vh;
+    width: 22vw;
+    
+    background: transparent;
+     border: none;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  #extraInfo{
+    height: 60vh;
+    width: 22vw;
+    background: transparent;
+    border: none;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .icon{
+    height: 12vh;
+     width: 7vw;
+     margin: auto;
+     padding: 5px;
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+      width: 100%;
+height: auto;
+justify-content: center;
+
+    }
+  
+    .infoCards {
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    #basicInfo,
+    #extraInfo {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .card-body {
+      padding: 10px;
+    }
+    .search-container{
+      width: 100%;
+    }
+    .search-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .search-button {
+      width: 25%;
+    }
+    .icon{
+      width: auto;
+    }
+  }
+  

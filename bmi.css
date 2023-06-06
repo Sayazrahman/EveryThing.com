@@ -1,0 +1,83 @@
+
+.heading{
+  text-align: 'center';
+  font-weight: 'bold';
+   color: white ;
+}
+
+.paragraph{
+  font-family: Times New Roman;
+  color: white;
+}
+.Ui {
+    margin: auto;
+    width: 70vw;
+    height: 110vh;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+ border-bottom-right-radius: 50px;
+
+}
+@media only screen and (max-width: 900px){
+  .Ui {
+      width: 100vw;
+      height: 120vh;
+  }
+  
+}
+
+.main input{
+    display: inline;
+    width: 30vw;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  height: 8vh;
+  border: none;
+  outline: none;
+ border-top-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ border: 2px solid rgb(52, 10, 206);
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 15px;
+ background-color: rgb(221, 221, 221);
+}
+@media only screen and (max-width: 900px){
+  .main input{
+    width: 40vw
+}
+
+}
+.main{
+    margin: auto;
+    text-align: center;
+};
+.input-group-addon {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .fa-male {
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 5px;
+  };
+
+  #btnbmi {
+   
+    width: 70vw;
+  }
+  @media only screen and (max-width: 900px){
+    #btnbmi{
+      background-color: rgb(228, 56, 4);
+      width: 60vw
+  }
+  
+  }
+
+  
+ 

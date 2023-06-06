@@ -1,0 +1,144 @@
+
+
+
+.nav-item{
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 2px;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+
+.navbar{
+  background-color: black;
+  color: white
+  ;
+}
+
+.description {
+  font-size: 30px;
+  background-image: linear-gradient(to bottom, rgb(4, 70, 59), rgba(255, 216, 41, 0.808));
+  border-radius: 20px; /* Rounded corners */
+  padding: 20px; /* Add some padding for spacing */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  color: white;
+  width: 98%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+.description h1 {
+  font-size: 35px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 30px;
+    color: #ffffff; /* Heading text color */
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.Ui h1{
+text-align: center;
+font-weight: bold;
+}
+
+.description p {
+  color: #ffffff; /* Paragraph text color */
+
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.section{
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  color: rgb(0, 0, 0);
+  width: 98%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+.section p{
+ color: rgb(255, 255, 255);
+  
+}
+.card img{
+  padding: 1rem;
+}
+.card {
+transition: transform 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+.card:hover {
+  transform: scale(1.05);
+}
+#password-card {
+  background: linear-gradient(135deg, rgba(239, 255, 12, 0.815), rgba(255, 157, 10, 0.856));
+}
+
+#bmi-card {
+  background: linear-gradient(135deg, rgba(255, 10, 210, 0.8), rgba(243, 144, 185, 0.4));
+}
+
+#currency-card {
+  background: linear-gradient(135deg, rgba(50, 241, 255, 0.8), rgba(255, 204, 153, 0.4));
+}
+
+#calculator-card {
+  background: linear-gradient(135deg, rgba(54, 255, 54, 0.8), rgba(153, 255, 153, 0.4));
+}
+
+#temperature-card {
+  background: linear-gradient(135deg, rgba(255, 73, 73, 0.8), rgba(150, 3, 3, 0.4));
+}
+#weather-card {
+  background: linear-gradient(135deg, rgba(133, 216, 255, 0.8), rgba(250, 137, 62, 0.918));
+}
+#randomimages-card {
+  background: linear-gradient(135deg, rgba(255, 73, 73, 0.8), rgba(150, 3, 3, 0.4));
+}
+.section h4{
+  color: white;
+font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90vw;
+    height: auto;
+  }
+
+  .input-field {
+    width: 80vw;
+    font-size: 24px;
+  }
+
+  .range-container {
+    width: 80vw;
+  }
+
+  .form-range {
+    width: 50%;
+  }
+
+  .generate-button,
+  .copy-button {
+    width: 80vw;
+    font-size: 18px;
+  }
+}
+
